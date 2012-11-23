@@ -1,14 +1,12 @@
-redo-ifchange index.yml.do
+DEPS=$(ls album-*/album.yml)
+redo-ifchange index.yml.do $DEPS
 
 echo ---
-cat <<EOF
-dirs:
-    - dir: a
-      title: Dir A
-    - dir: b
-      title: Dir B
-    - dir: c
-      title: Dir C
-EOF
+echo "dirs:"
+for x in $DEPS; do
+    echo '    - dir:' ${x%/*}
+    awk '{print "      " $0}' $x
+done
+    
 echo ---
     
