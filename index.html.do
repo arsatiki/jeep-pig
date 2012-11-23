@@ -1,2 +1,2 @@
-redo-ifchange index.mustache
-mustache '{"dirs": [{"dir": "a"}, {"dir": "b"}]}' index.mustache
+redo-ifchange index.mustache index.yml index.html.do
+mustache index.yml index.mustache
