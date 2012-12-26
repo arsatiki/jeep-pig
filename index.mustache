@@ -1,7 +1,15 @@
 <!doctype html>
-
-<ul>
-{{#dirs}}
-<li><a href="{{dir}}">{{title}}</a></li>
-{{/dirs}}
-</ul>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Normalize CSS</title>
+	<link rel="stylesheet" href="css/external/normalize/normalize.css" />
+</head>
+<body>
+	<ul>
+		{{#dirs}}
+		<li><a href="{{dir}}">{{title}}</a></li>
+		{{/dirs}}
+	</ul>
+</body>
+</html>
