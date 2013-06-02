@@ -20,3 +20,20 @@ Simple construction, easy to repair.
 MacGyver drove a Jeep.
 
 Also, pigs are cool.
+
+TODO
+====
+
+- First use case; directory of images -> single album
+  - Something to help create the index
+  - Reconsider using yml; a simple list with images + titles is enough
+    - plus possibly preamble
+  - Two or three tools needed: indexer, image converter and html-generator.
+- Second use case: drop new album into place, run tool to update index, generate new front page.
+  - needs two tools: something to find index-files from dropped directories and something to render.
+- Third use case: Same for collection of album-collections.
+
+Random ideas
+============
+
+- If a DB is necessary, consider SQLite. Public domain, static.
