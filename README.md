@@ -1,3 +1,11 @@
+Update 2013-07-28
+=================
+
+My jeeppig development has been delayed by Kid #2.
+In the meantime, I am using imageindex to generate some form of galleries.
+If Camlistore lives up to its promise, I may end up using it as the ultimate solution.
+Time will tell.
+
 General Purpose Photo Gallery (GPPG, pronounced Jeep-Pig)
 =========================================================
 
